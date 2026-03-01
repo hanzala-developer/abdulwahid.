@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Wahid Bin Bashir Ahmed | CEO AIM | Director RISE | Islamic Science College Shahdadpur</title>
+    <meta name="description" content="Abdul Wahid Bin Bashir Ahmed is a leading Educationist, CEO AIM, Director RISE and Director of Islamic Science College Shahdadpur. 28+ years of experience in education leadership in Sindh Pakistan.">
+
+<meta name="keywords" content="Abdul Wahid, Abdulwahid, Director AIM, Director RISE, Islamic Science College Shahdadpur, ISC Shahdadpur, AIM Institute, RISE Research Institute, Educationist Pakistan, Islamic Scholar Sindh, Shahdadpur Director, Sanghar Education Leader">
+
+<meta name="author" content="Abdul Wahid">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://yourdomain.com/">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #1A2B4C;
+            --secondary: #C6A43F;
+            --accent: #1F4B3E;
+            --light-bg: #F5F7FA;
+            --white: #FFFFFF;
+            --text-dark: #333333;
+            --text-light: #666666;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Cormorant Garamond', serif;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            z-index: 1000;
+            padding: 1rem 0;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--secondary);
+        }
+
+        .mobile-menu {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" opacity="0.05"><path d="M50 15 L61 39 L87 39 L66 57 L73 85 L50 70 L27 85 L34 57 L13 39 L39 39 Z" fill="white"/></svg>') repeat;
+            background-size: 60px;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            color: var(--white);
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        .hero-text h3 {
+            font-size: 1.3rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+            color: var(--secondary);
+        }
+
+        .hero-text .designation {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 450px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            border: 3px solid var(--secondary);
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .btn-primary {
+            background: var(--secondary);
+            color: var(--primary);
+        }
+
+        .btn-primary:hover {
+            background: #b38f2f;
+            transform: translateY(-2px);
+        }
+
+        .btn-outline {
+            border: 2px solid var(--white);
+            color: var(--white);
+        }
+
+        .btn-outline:hover {
+            background: var(--white);
+            color: var(--primary);
+        }
+
+        /* Sections */
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2.8rem;
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: "";
+            display: block;
+            width: 80px;
+            height: 3px;
+            background: var(--secondary);
+            margin: 1rem auto;
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .about-image {
+            width: 100%;
+            height: 450px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 3px solid var(--secondary);
+        }
+
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .personal-info {
+            background: var(--light-bg);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .personal-info-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        .personal-info-item {
+            font-size: 0.95rem;
+        }
+
+        .personal-info-item strong {
+            color: var(--primary);
+        }
+
+        .timeline-item {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            padding-left: 1rem;
+            border-left: 3px solid var(--secondary);
+        }
+
+        .timeline-year {
+            font-weight: 700;
+            color: var(--secondary);
+            min-width: 100px;
+        }
+
+        /* Portfolio/Experience Section */
+        .experience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .experience-card {
+            background: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .experience-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .experience-card i {
+            font-size: 3rem;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        .experience-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+
+        /* Qualifications Section */
+        .qual-badge {
+            display: inline-block;
+            background: var(--secondary);
+            color: var(--primary);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-weight: 600;
+            margin: 0.3rem;
+            font-size: 0.9rem;
+        }
+
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .book-item {
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            border-bottom: 3px solid var(--secondary);
+        }
+
+        .book-item i {
+            font-size: 2.5rem;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        .book-item h4 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .book-item p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Gallery Section */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .gallery-item {
+            height: 220px;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: 2px solid var(--secondary);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(26,43,76,0.9), transparent);
+            color: white;
+            padding: 1rem;
+            transform: translateY(100%);
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover .gallery-overlay {
+            transform: translateY(0);
+        }
+
+        /* Vision Section */
+        .vision-section {
+            background: var(--light-bg);
+        }
+
+        .vision-quote {
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Cormorant Garamond', serif;
+            color: var(--primary);
+            max-width: 800px;
+            margin: 0 auto 3rem;
+            padding: 2rem;
+            position: relative;
+        }
+
+        .vision-quote::before {
+            content: '"';
+            font-size: 6rem;
+            color: var(--secondary);
+            position: absolute;
+            top: -20px;
+            left: 0;
+            opacity: 0.3;
+        }
+
+        .future-targets {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .target-item {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .target-item h3 {
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+        }
+
+        .contact-form {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .form-group textarea {
+            height: 120px;
+            resize: vertical;
+        }
+
+        .contact-info {
+            background: var(--primary);
+            color: var(--white);
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .contact-info i {
+            color: var(--secondary);
+            margin-right: 1rem;
+            width: 25px;
+        }
+
+        .contact-info p {
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-info a {
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            color: var(--secondary);
+        }
+
+        .address-box {
+            background: rgba(255,255,255,0.1);
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--primary);
+            color: var(--white);
+            padding: 3rem 0 2rem;
+            text-align: center;
+        }
+
+        .footer-links {
+            margin: 1.5rem 0;
+        }
+
+        .footer-links a {
+            color: var(--white);
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary);
+        }
+
+        .social-icons {
+            margin: 1.5rem 0;
+        }
+
+        .social-icons a {
+            color: var(--white);
+            margin: 0 0.8rem;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: var(--secondary);
+        }
+
+        .developer-link {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .developer-link a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .developer-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu {
+                display: block;
+            }
+
+            .hero-content,
+            .about-grid,
+            .contact-grid,
+            .future-targets {
+                grid-template-columns: 1fr;
+            }
+
+            .hero {
+                padding: 100px 0;
+                text-align: center;
+            }
+
+            .hero-text h1 {
+                font-size: 2.5rem;
+            }
+
+            .section-title {
+                font-size: 2.2rem;
+            }
+
+            .personal-info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Person",
+ "name": "Abdul Wahid Bin Bashir Ahmed",
+ "jobTitle": "Director AIM | CEO RISE",
+ "worksFor": {
+   "@type": "Organization",
+   "name": "Islamic Science College Shahdadpur"
+ },
+ "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "Shahdadpur",
+   "addressRegion": "Sindh",
+   "addressCountry": "Pakistan"
+ }
+}
+</script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Abdul Wahid</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Sample Image -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+          <h1>Abdul Wahid Bin Bashir Ahmed – Director AIM & CEO RISE | Islamic Science College Shahdadpur</h1>
+                <h3>Educationist | Research Scholar | Teacher Trainer | Author</h3>
+                <p class="designation">CEO AIM | Director RISE | Coordinator Education - PIDF</p>
+                <p>With 28 years of experience as an academic leader, civil society activist, and writer, dedicated to nurturing minds through contemporary and religious education.</p>
+                <div>
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#publications" class="btn btn-outline">View Publications</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpeg" alt="Abdul Wahid Director AIM CEO RISE Shahdadpur">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Sample Image -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="profile.jpeg" alt="Abdul Wahid - Educationist">
+                </div>
+                <div>
+                    <div class="personal-info">
+                        <h3 style="color: var(--primary); margin-bottom: 1rem;">Personal Information</h3>
+                        <div class="personal-info-grid">
+                            <div class="personal-info-item"><strong>Father's Name:</strong> Abdul Wahid</div>
+                            <div class="personal-info-item"><strong>Surname:</strong> Bashir Ahmed</div>
+                            <div class="personal-info-item"><strong>Date of Birth:</strong> 19-08-1973</div>
+                            <div class="personal-info-item"><strong>CNIC:</strong> 44204-3619253-7</div>
+                            <div class="personal-info-item"><strong>Passport:</strong> BL6172534</div>
+                            <div class="personal-info-item"><strong>Religion:</strong> Islam</div>
+                            <div class="personal-info-item"><strong>Nationality:</strong> Pakistani</div>
+                            <div class="personal-info-item"><strong>Marital Status:</strong> Married</div>
+                        </div>
+                    </div>
+
+                    <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">This is Abdul Wahid Bin Bashir Ahmed - an educationist, a civil society activist, a research scholar, a teacher trainer and writer.</p>
+                    
+                    <p style="margin-bottom: 1.5rem;">Presently, I hold the offices of Director AIM (Advanced Institute of Mentoring), CEO RISE (Research Institute for Society and Education) and Coordinator Education for PIDF (Pakistan International Development Forum).</p>
+
+                    <div class="timeline">
+                        <h3 style="color: var(--primary); margin-bottom: 1rem;">Experience Timeline</h3>
+                        <div class="timeline-item">
+                            <span class="timeline-year">2024</span>
+                            <span>CEO AIM | Director RISE | Coordinator PIDF</span>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-year">28 Years</span>
+                            <span>Extensive experience in education leadership</span>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 1.5rem;">
+                        <h3 style="color: var(--primary); margin-bottom: 0.5rem;">Skills</h3>
+                        <p>Computer, Urdu, Sindhi, English Language Skills</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section class="section" style="background: var(--light-bg);">
+        <div class="container">
+            <h2 class="section-title">Educational & Professional Qualifications</h2>
+            <div style="text-align: center; margin-bottom: 2rem;">
+                <span class="qual-badge">Masters in Muslim History</span>
+                <span class="qual-badge">Bachelors in Arts</span>
+                <span class="qual-badge">PTC (Primary Teaching Course)</span>
+                <span class="qual-badge">CT (Certificate in Teaching)</span>
+                <span class="qual-badge">CTTC (Comprehensive Teachers Training Course)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <i class="fas fa-school"></i>
+                    <h3>Director AIM</h3>
+                    <p>Advanced Institute of Mentoring - Leading teacher training and educational mentoring programs</p>
+                </div>
+                
+                <div class="experience-card">
+                    <i class="fas fa-university"></i>
+                    <h3>CEO RISE</h3>
+                    <p>Research Institute for Society and Education - Driving educational research and innovation</p>
+                </div>
+                
+                <div class="experience-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Coordinator Education</h3>
+                    <p>PIDF (Pakistan International Development Forum) - Managing educational development initiatives</p>
+                </div>
+                
+                <div class="experience-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Master Trainer</h3>
+                    <p>Conducted hundreds of training sessions for teachers across all sectors</p>
+                </div>
+                
+                <div class="experience-card">
+                    <i class="fas fa-building"></i>
+                    <h3>School Founder</h3>
+                    <p>Successfully laid foundation of many private sector schools and colleges</p>
+                </div>
+                
+                <div class="experience-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>28 Years Experience</h3>
+                    <p>Academic leader with both public and private sector organizations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section from Resume -->
+    <section id="publications" class="section" style="background: var(--light-bg);">
+        <div class="container">
+            <h2 class="section-title">Books & Publications</h2>
+            <div class="books-grid">
+                <div class="book-item">
+                    <i class="fas fa-book"></i>
+                    <h4>Teaching Methodologies of The Holy Prophet (ﷺ)</h4>
+                    <p>Published in English, Sindhi & Urdu</p>
+                </div>
+                
+                <div class="book-item">
+                    <i class="fas fa-book"></i>
+                    <h4>Comprehensive Urdu Reader</h4>
+                    <p>Educational textbook</p>
+                </div>
+                
+                <div class="book-item">
+                    <i class="fas fa-book"></i>
+                    <h4>Comprehensive Quranic Reader</h4>
+                    <p>For understanding Quran</p>
+                </div>
+                
+                <div class="book-item">
+                    <i class="fas fa-book"></i>
+                    <h4>Comprehensive Arabic and Urdu Reader</h4>
+                    <p>Language learning</p>
+                </div>
+                
+                <div class="book-item">
+                    <i class="fas fa-book"></i>
+                    <h4>Satan: An Open Enemy</h4>
+                    <p>Islamic literature</p>
+                </div>
+                
+                <div class="book-item">
+                    <i class="fas fa-book"></i>
+                    <h4>The Life of Hazrat Moosa (عليه السلام)</h4>
+                    <p>Prophetic biography</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section with Sample Images -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Media Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="11.jpeg" alt="Abdul Wahid speaking at educational seminar in Shahdadpur">
+                    <div class="gallery-overlay">
+                        <h4>Educational Seminar</h4>
+                        <p>Speaking at teachers conference</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="13.jpeg" alt="Abdul Wahid at Islamic Science College ISC Shahdadpur event">
+                    <div class="gallery-overlay">
+                        <h4>School Event</h4>
+                        <p>Rise Schooling System</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="14.jpeg" alt="Abdul Wahid at Rise Schooling System event Shahdadpur">
+                    <div class="gallery-overlay">
+                        <h4>Guest Lecture</h4>
+                        <p>Islamic Studies</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_7472.jpg" alt="Abdul Wahid delivering Islamic Studies lecture at Islamic Science College">
+                    <div class="gallery-overlay">
+                        <h4>Award Ceremony</h4>
+                        <p>Educational Excellence Award</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_8006.jpg" alt="Abdul Wahid receiving education excellence award in Sindh">
+                    <div class="gallery-overlay">
+                        <h4>Teacher Training</h4>
+                        <p>Professional development workshop</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="IMG_7448.jpg" alt="Abdul Wahid conducting teacher training workshop AIM Shahdadpur">
+                    <div class="gallery-overlay">
+                        <h4>Book Launch</h4>
+                        <p>Teaching Methodologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Future Targets -->
+    <section id="vision" class="section vision-section">
+        <div class="container">
+            <div class="vision-quote">
+                Equipping students with both contemporary and religious fields of knowledge, bringing them up in the light of Quran and Sunnah.
+            </div>
+            
+            <h3 style="text-align: center; color: var(--primary); margin-bottom: 2rem;">Future Targets & Vision</h3>
+            
+            <div class="future-targets">
+                <div class="target-item">
+                    <i class="fas fa-graduation-cap" style="font-size: 2rem; color: var(--secondary); margin-bottom: 1rem;"></i>
+                    <h3>Contemporary & Religious Education</h3>
+                    <p>Intend to equip students with both contemporary and religious fields of knowledge, creating balanced individuals prepared for modern challenges while rooted in faith.</p>
+                </div>
+                
+                <div class="target-item">
+                    <i class="fas fa-language" style="font-size: 2rem; color: var(--secondary); margin-bottom: 1rem;"></i>
+                    <h3>Quran & Sunnah Understanding</h3>
+                    <p>Intend to bring up and train students in the light of Quran and Sunnah through teaching them Arabic so that they understand both Quran and Sunnah directly.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <p style="font-size: 1.2rem;"><i class="fas fa-quote-right" style="color: var(--secondary);"></i> Have worked for more than twenty five years as an academic leader with both public and private sector</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option>Select Subject</option>
+                                <option>Collaboration</option>
+                                <option>Speaking Event</option>
+                                <option>Training Inquiry</option>
+                                <option>General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="border: none; cursor: pointer; width: 100%;">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3 style="color: var(--secondary); margin-bottom: 2rem;">Contact Information</h3>
+                    
+                    <p><i class="fas fa-phone"></i> <a href="tel:+923462860006">+92 3462860006</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:abdulwahid.isc@gmail.com">abdulwahid.isc@gmail.com</a></p>
+                    
+                    <div class="address-box">
+                        <p><i class="fas fa-map-marker-alt"></i> Islamic Science College</p>
+                        <p>Tando Adam Road, Shahdadpur</p>
+                        <p>District Sanghar, Sindh, Pakistan</p>
+                    </div>
+                    
+                    <div style="margin-top: 2rem; background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 5px;">
+                        <p><i class="fas fa-clock"></i> Response within 24-48 hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Developer Credit -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#publications">Publications</a>
+                <a href="#contact">Contact</a>
+            </div>
+            
+            
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p style="display:inline;">
+Abdul Wahid Shahdadpur, CEO AIM, Director RISE, Islamic Science College Shahdadpur, Educationist Sindh Pakistan, ISC Director, Rise Schooling System Shahdadpur, AIM Institute Shahdadpur, Islamic Scholar Sanghar District.
+</p>
+            
+            <p>Copyright © 2024 Abdul Wahid | Brought to you by Hanzala Arain</p>
+            
+            <div class="developer-link">
+                <p>Website by <a href="https://devhanzala.vercel.app" target="_blank">Hanzala Arain</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            const navLinks = document.querySelector('.nav-links');
+            if (navLinks.style.display === 'flex') {
+                navLinks.style.display = 'none';
+            } else {
+                navLinks.style.display = 'flex';
+                navLinks.style.flexDirection = 'column';
+                navLinks.style.position = 'absolute';
+                navLinks.style.top = '70px';
+                navLinks.style.left = '0';
+                navLinks.style.width = '100%';
+                navLinks.style.background = 'white';
+                navLinks.style.padding = '1rem';
+                navLinks.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+        });
+    </script>
+</body>
+</html>
